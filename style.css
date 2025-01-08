@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+
+}
+
+.header {
+    height: 200px;
+    background-image: url(https://farm66.staticflickr.com/65535/coverphoto/130393879@N06_h.jpg?1653356028);
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.div1 h2 {
+    color: aqua;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+
+}
+
+.div1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* padding-top: 50px;
+    padding-left: 100px; */
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.div2 {
+    background-color: black;
+    height: 150px;
+    opacity: 0.8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+.div2:hover{
+    transform: scale(1.05); 
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+
+
+}
+.div2 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 40%;
+    color: goldenrod;
+    opacity: 0;
+    transition: bottom 1s ease, opacity 1s ease; 
+
+
+}
+.div2 h2:hover{
+    opacity: 1;
+    
+}
+
+.main {
+    height: 1700px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/030/696/994/large_2x/football-high-quality-4k-hdr-free-photo.jpg);
+    background-size: cover; 
+    background-position: center center;
+  opacity: 0.8;
+}
+.imgset1{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgset1:hover{
+    opacity: 1;
+    transform: translateX(100px);
+    transition: 2s;
+}
+/* .imgset5{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgset5:hover{
+    opacity: 1;
+    transform: translateX(100px);
+    transition: 2s;
+} */
+.imgset2{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgset2:hover{
+    opacity: 1;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.imgset3{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgset3:hover{
+    opacity: 1;
+    transform: scaleX(1.5);
+    transition: 2s;
+}
+.imgset4{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgset4:hover{
+    opacity: 1;
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+.foot{
+    opacity: 0.5;
+    height: 100px;
+    background-color: gold;
+}
+footer {
+    text-align: center; 
+    padding: 20px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: rgb(95, 95, 8); 
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-content {
+    font-weight: bolder;
+    color: rgb(78, 78, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .footer-content p {
+    margin: 0;
+  }
+
+  .social-icons {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+   .social-icons a {
+    /* font-size: 24px; */
+    color: rgb(113, 73, 0);
+    opacity: 1;
+  } 
+
+  .social-icons a:hover {
+    color: #00bcd4; 
+  }

@@ -63,13 +63,14 @@
 }
 
 .main {
-    height: 1700px;
+    height: 2000px;
     background-image: url(https://static.vecteezy.com/system/resources/previews/030/696/994/large_2x/football-high-quality-4k-hdr-free-photo.jpg);
     background-size: cover; 
     background-position: center center;
   opacity: 0.8;
 }
 .imgset1{
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     
@@ -79,16 +80,16 @@
     transform: translateX(100px);
     transition: 2s;
 }
-/* .imgset5{
+ .imgset5{
     display: flex;
     justify-content: center;
     
 }
 .imgset5:hover{
     opacity: 1;
-    transform: translateX(100px);
+    transform:skewX(30deg);
     transition: 2s;
-} */
+} 
 .imgset2{
     display: flex;
     justify-content: center;
